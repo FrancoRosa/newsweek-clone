@@ -7,3 +7,8 @@ body {
     background-color: #f72210 !important;
 }
 
+.card-deck > .card{
+    border:1px red solid !important;
+    margin: 5px;
+    
+}
