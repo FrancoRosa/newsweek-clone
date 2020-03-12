@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>NewsWeek</title>
@@ -11,25 +12,96 @@
 
 <body>
     <header>
-        <nav class="navbar bg-dark">
-            <div class="text-light text-wrap" style="width: 12rem;">
-                <span>20° Cusco, PE</span>
-                <br>
-                <span>Mon, Mar 09, 2020</span>
+ 
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="d-lg-none d-block">
+                <img src="./imgs/NewsweekLogo.png" class="img-fluid" style="width: 10rem;" alt="Responsive image">
             </div>
-            <div class="float-lg-right">
+           
+            <div class="text-light mr-auto">
+                <ul class="list-inline">
+                    <li class="list-inline-item d-none d-sm-inline">
+                        <i class="material-icons pr-2">cloud</i>20°</li>
+                    <li class="list-inline-item d-none d-md-inline">Cusco, PE</li>
+                    <li class="d-none d-lg-block">Mon, Mar 09, 2020</li>
+                </ul> 
+            </div>
+            <div class="mr-auto d-none d-lg-block">
                 <img src="./imgs/NewsweekLogo.png" class="img-fluid" style="width: 16rem;" alt="Responsive image">
             </div>
             <div>
                 <span class="text-light bg-dark">SIGN IN</span>
                 <span class="text-danger bg-light">SUBSCRIBE</span>
+                <button class="navbar-toggler d-lg-none" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
         </nav>
+        <nav class="nav nav-tabs d-lg-block d-none">
+            <ul class="list-group list-group-horizontal list-unstyled font-weight-bold">
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">U.S.</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">World</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">Business</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">Tech & Science</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">Culture</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">NewsGeek</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">Sports</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">Health</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">The Debate</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">Vantage</a></li>
+                <li class="nav-item"><a class="nav-link p-2 active" href="#">Weather</a></li>
+                <li class="nav-item"><a class="nav-link disabled" href="#">Search
+                    <i class="material-icons">search</i></a></li>
+            </ul>
+        </nav>  
     </header>
-    <h1>NewsWeek</h1>
-    <button class="btn btn-primary">Test</button>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+            
+                <div class="col-lg col-md-5">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./imgs/f1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Explosions Interrupt Afghan President Inauguration Amid Post-Peace Unrest</h5>
+                          <p class="card-text">Afghan President Ashraf Ghani opened his suit to reveal he was not wearing a bulletproof vest and announced that he would sacrifice himself for his country and its people.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./imgs/f2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Trump Avoids Insulting Vladimir Putin for Fear of 'Revenge': Fiona Hill</h5>
+                          <p class="card-text">The former White House Russia adviser said the president avoids insulting leaders like Putin while treating allied leaders "as though they're business counterparts."</p>
+                        </div>
+                    </div>   
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./imgs/f3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Climate Change Once Made Ancient Creatures Shrink</h5>
+                          <p class="card-text">The fossil record suggests belemnites shrunk 40 percent around 183 million years ago, when volcanic eruptions caused temperatures to rise.</p>
+                        </div>
+                    </div> 
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./imgs/f4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">What Meghan Markle and Prince Harry Did in Final Royal Appearances</h5>
+                          <p class="card-text">The Duke and Duchess of Sussex's farewell tour has included some show-stopping photo opportunities and predictable press negativity as they prepare to leave the royal family.</p>
+                        </div>
+                    </div>     
+                </div>
+                <div class="col-lg-5 col-md-7 bg-success">
+                    2 of 2
+                </div>
+                <div class="col-lg bg-info">
+                    2 of 2
+                </div>
+            </div>
+            
+
+          </div>
+    </main>
     <footer>
-        footer
+        - - - - - - - - - - - - - - - 
     </footer>
 </body>
 
