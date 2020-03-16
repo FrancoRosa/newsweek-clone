@@ -3,7 +3,7 @@ body {
   margin: auto;
 }
 
-.bg-danger {
+.bg-newsweek {
   background-color: #f72210 !important;
 }
 
@@ -17,3 +17,7 @@ body {
   margin-top: 0.8rem;
 }
 
+.subs-img {
+  width: 50%;
+  padding-right: 10px;
+}
