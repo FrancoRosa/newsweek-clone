@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8e996abce9.js"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -20,10 +19,11 @@
             </div>
            
             <div class="text-light mr-auto">
-                <ul class="list-inline">
-                    <li class="list-inline-item d-none d-sm-inline">
-                        <i class="material-icons pr-2">cloud</i>20°</li>
-                    <li class="list-inline-item d-none d-md-inline">Cusco, PE</li>
+                <ul class="list-inline mt-4">
+                    <li class="list-inline-item d-none d-sm-inline font-weight-bold">
+                        <i class="fas fa-cloud pr-2"></i>20°</li>
+                    <li class="list-inline-item d-none d-md-inline font-weight-bold">Cusco, PE
+                        <i class="fas fa-chevron-right pr-2"></i></li>
                     <li class="d-none d-lg-block">Mon, Mar 09, 2020</li>
                 </ul> 
             </div>
@@ -31,34 +31,34 @@
                 <img src="./imgs/NewsweekLogo.png" class="img-fluid" style="width: 24rem;" alt="Responsive image">
             </div>
             <div>
-                <span class="text-light bg-danger">SIGN IN</span>
-                <span class="text-danger bg-light">SUBSCRIBE</span>
+                <span class="text-light bg-danger p-2">SIGN IN</span>
+                <span class="text-danger bg-light p-1 pl-2 pr-2">SUBSCRIBE</span>
                 <button class="navbar-toggler d-lg-none" type="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
         </nav>
-        <nav class="nav nav-tabs d-lg-block d-none">
-            <ul class="list-group list-group-horizontal list-unstyled font-weight-bold">
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">U.S.</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">World</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">Business</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">Tech & Science</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">Culture</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">NewsGeek</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">Sports</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">Health</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">The Debate</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">Vantage</a></li>
-                <li class="nav-item"><a class="nav-link p-2 active" href="#">Weather</a></li>
-                <li class="nav-item"><a class="nav-link disabled" href="#">Search
-                    <i class="material-icons">search</i></a></li>
+        <nav class="nav nav-tabs d-lg-block d-none col-lg-11 border-0">
+            <ul class="list-group list-group-horizontal list-unstyled font-weight-bold border-0">
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">U.S.</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">World</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">Business</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">Tech & Science</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">Culture</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">NewsGeek</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">Sports</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">Health</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">The Debate</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">Vantage</a></li>
+                <li class="nav-item border-right"><a class="nav-link active p-2 border-0" href="#">Weather</a></li>
+                <li class="nav-item"><a class="nav-link disabled d-inline" href="#">Search</a>
+                    <i class="fas fa-search search-icon"></i></li>
             </ul>
         </nav>  
     </header>
     <main>
         
-        <div class="container-fluid">
+        <div class="container-fluid pt-3 mt-3 border-top">
             <div class="row">
                 <section class="col-lg col-md-5">
                     <h6 class="m-2 text-muted font-weight-bold">FEATURED STORIES</h5>
@@ -203,6 +203,7 @@
                             </div>
                         </div>
                 </section>
+                <!-- Opinion & Debate & Latest News -->
                 <section class="col-lg">
                     <h6 class="m-2 text-muted font-weight-bold">OPINION</h5>
                     <div class="card border-0">
@@ -342,18 +343,18 @@
                                 <h6 class="font-weight-bold">Protecting Us All From an Epidemic Should Be Prioritized Over the Economy</h6>
                             </div>
                         </div>
-                        <div class="card bg-light">
+                        <div class="card bg-light col-md-auto">
                             <div class="card-body">
                                 <img class="float-left pr-2" src="./imgs/small-logo.png" alt="Card image cap">
                                 <h5 class="card-title">SIGN UP FOR OUR NEWSLETTER</h5>
-                                <a href="#" class="btn btn-dark d-flex align-items-center w-50 font-weight-bold">SIGN UP<i class="material-icons pb-1">arrow_forward_ios</i> </a>
+                                <a href="#" class="btn btn-dark d-flex align-items-center w-50 font-weight-bold">SIGN UP<i class="fas fa-chevron-right pl-2 pb-1"></i></a>
                                 <h6 class="font-weight-bold m-2">Update your preferences</h6>
                             </div>
                           </div>
 
                 </section>
             </div>
-            <!-- In the magazine -->
+            <!-- In the magazine Title -->
             <div class="row">
                 <section class="col-12">
                     <div class="card w-100">
@@ -364,7 +365,7 @@
                     </div>
                 </section>
             </div>
-            
+            <!-- In the magazine Cards -->
             <div class="row">
                 <div class="card-deck">
                     <div class="card border-0">
@@ -426,7 +427,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Editor's Pick -->
+            <!-- Editor's Pick Title -->
             <div class="row">
                 <section class="col-12">
                     <div class="card w-100">
@@ -437,6 +438,7 @@
                     </div>
                 </section>
             </div>
+            <!-- Editor's Pick Cards -->
             <div class="row">
                 <div class="card-deck">
                     <div class="card border-0">
@@ -507,7 +509,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Featured Slideshows -->
+            <!-- Featured Slideshows Title -->
             <div class="flex-sm row">
                 <section class="col-12">
                     <div class="card w-100">
@@ -518,7 +520,8 @@
                     </div>
                 </section>
             </div>
-            <div class="row">
+            <!-- Featured Slideshows Cards -->
+            <section class="row">
                 <div class="card-deck">
                     <div class="card border-0">
                         <img class="card-img-top feature-image" src="./imgs/mm8.jpg" alt="Card image cap">
@@ -559,7 +562,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- World -->
             <section class="row">
                 <h4 class="text-danger font-weight-bold"> World </h4>
@@ -636,6 +639,7 @@
                     </div>
                 </div>
             </section>
+            <!-- Tech & Science -->
             <section class="row">
                 <h4 class="text-danger font-weight-bold">Tech & Science</h4>
                 <div class="card-deck">
@@ -673,6 +677,7 @@
                     </div>
                 </div>
             </section>
+            <!-- Culture -->
             <section class="row">
                 <h4 class="text-danger font-weight-bold">Culture</h4>
                 <div class="card-deck">
@@ -795,7 +800,7 @@
                                 <img class="float-left img-fluid" src="./imgs/mm1.jpg" alt="Card image cap">
                                 <h5 class="card-title pt-5">Special title treatment</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn bg-danger text-light">SUBSCRIBE</a>
+                                <a href="#" class="btn bg-danger text-light">SUBSCRIBE <i class="fas fa-chevron-right pl-2 pb-1"></i> </a>
                         </div>
                     </div>
                     <div class="card">
@@ -804,7 +809,7 @@
                                 <img class="float-left img-fluid" src="./imgs/mm1.jpg" alt="Card image cap">
                                 <h5 class="card-title pt-5">Special title treatment</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn bg-danger text-light">SIGN UP</a>
+                                <a href="#" class="btn bg-danger text-light">SIGN UP <i class="fas fa-chevron-right pl-2 pb-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -812,7 +817,9 @@
         </div>
     
     </main>
+
     <footer>
+        <!-- Logo & Social Media -->
         <nav class="navbar border-bottom">
             <img src="./imgs/nwredlogo.png" class="img-fluid col" style="width: 16rem;" alt="Responsive image">
             <span class="text-secondary col-6">&copy; 2020 NEWSWEEK</span>
