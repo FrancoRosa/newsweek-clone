@@ -1,0 +1,23 @@
+body {
+  max-width: 1310px;
+  margin: auto;
+}
+
+.bg-newsweek {
+  background-color: #f72210 !important;
+}
+
+.card-deck > .card {
+  margin: 5px;
+}
+
+.search-icon {
+  color: gray;
+  font-size: 15px;
+  margin-top: 0.8rem;
+}
+
+.subs-img {
+  width: 50%;
+  padding-right: 10px;
+}
